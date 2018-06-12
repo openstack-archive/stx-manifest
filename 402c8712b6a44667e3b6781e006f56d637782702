@@ -1,0 +1,8 @@
+Code-Review+2: Erich Cordoba <erich.cordoba.malibran@intel.com>
+Workflow+1: Dean Troyer <dtroyer@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Tue, 12 Jun 2018 21:12:56 +0000
+Reviewed-on: https://review.openstack.org/574777
+Project: openstack/stx-manifest
+Branch: refs/heads/master
