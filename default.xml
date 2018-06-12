@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ima" fetch="https://git.code.sf.net/p/linux-ima"/>
+  <remote name="openstack" fetch="https://github.com/openstack" />
+  <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
+  <!-- note, you can also provide personal overrides for your own github -->
+  <!-- for tests/experiments -->
+
+  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
+  <default revision="master" remote="stx-staging"/>
+
+  <project remote="openstack" revision="master" name="stx-tools.git" path="stx-tools"/>
+
+  <project remote="openstack"  name="stx-root.git" path="cgcs-root"/>
+
+  <project remote="openstack"  name="stx-clients.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-delphi"/>
+  <project remote="openstack"  name="stx-config.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-pitta"/>
+  <project remote="openstack"  name="stx-fault.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-cleo"/>
+  <project remote="openstack"  name="stx-gplv2.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-gplv2"/>
+  <project remote="openstack"  name="stx-gplv3.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-gplv3"/>
+  <project remote="openstack"  name="stx-gui.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-gui"/>
+  <project remote="openstack"  name="stx-ha.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-solon"/>
+  <project remote="openstack"  name="stx-integ.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-sparta"/>
+  <project remote="openstack"  name="stx-metal.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-beas"/>
+  <project remote="openstack"  name="stx-nfv.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-thales"/>
+  <project remote="openstack"  name="stx-update.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-chilon"/>
+  <project remote="openstack"  name="stx-upstream.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-perian"/> 
+
+  <project remote="stx-staging"  name="stx-centos-repo.git" path="cgcs-root/cgcs-centos-repo"/>
+  <project remote="openstack"  name="stx-tis-repo.git" path="cgcs-root/cgcs-tis-repo"/>
+  <project remote="openstack"  name="stx-utils.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs"/>
+
+  <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/ceilometer"/>
+  <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/ceph"/>
+  <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/cinder"/>
+  <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/glance"/>
+  <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/ironic"/>
+  <project remote="stx-staging"  name="stx-libvirt.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/libvirt"/>
+  <project remote="stx-staging"  name="stx-kingbird.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/distributedcloud"/>
+  <project remote="stx-staging"  name="stx-magnum-ui.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/magnum-ui"/>
+  <project remote="stx-staging"  name="stx-murano.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/murano"/>
+  <project remote="stx-staging"  name="stx-murano-dashboard.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/murano-dashboard"/>
+  <project remote="stx-staging"  name="stx-networking-bgpvpn.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/networking-bgpvpn"/>
+  <project remote="stx-staging"  name="stx-networking-odl.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/networking-odl"/>
+  <project remote="stx-staging"  name="stx-networking-sfc.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/networking-sfc"/>
+  <project remote="stx-staging"  name="stx-neutron-dynamic-routing.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/neutron-dynamic-routing"/>
+  <project remote="stx-staging"  name="stx-neutron-lib.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/neutron-lib"/>
+  <project remote="stx-staging"  name="stx-neutron.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/neutron"/>
+  <project remote="stx-staging"  name="stx-nova.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/nova"/>
+  <project remote="stx-staging"  name="stx-horizon.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/horizon"/>
+  <project remote="stx-staging"  name="stx-heat.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/heat"/>
+  <project remote="stx-staging"  name="stx-keystone.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/keystone"/>
+  <project remote="stx-staging"  name="stx-python-ceilometerclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-ceilometerclient"/>
+  <project remote="stx-staging"  name="stx-python-cinderclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-cinderclient"/>
+  <project remote="stx-staging"  name="stx-python-glanceclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-glanceclient"/>
+  <project remote="stx-staging"  name="stx-python-kingbirdclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/distributedcloud-client"/>
+  <project remote="stx-staging"  name="stx-python-magnumclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-magnumclient"/>
+  <project remote="stx-staging"  name="stx-python-muranoclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-muranoclient"/>
+  <project remote="stx-staging"  name="stx-python-neutronclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-neutronclient"/>
+  <project remote="stx-staging"  name="stx-python-novaclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-novaclient"/>
+  <project remote="stx-staging"  name="stx-openstacksdk.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-openstacksdk"/>
+  <project remote="stx-staging"  name="stx-qemu.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/qemu"/>
+  <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/ryu"/>
+  <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/openstack-ras"/>
+
+  <!--
+  work in progress to move these to the download mirror scripts 
+  <project remote="stx-staging"  name="cgcs-dl.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/downloads"/>
+  -->
+
+  <!-- IMA Pure Upstream -->
+  <project remote="ima" revision="4b56112c095cb5cc34dc35abac37ebfc6eadba65" name="ima-evm-utils.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/ima-evm-utils" />
+
+  <!-- Magnum Pure Upstream -->
+  <project remote="openstack" revision="stable/pike" name="magnum.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/magnum"/>
+
+  <!-- Python ironicclient  Pure Upstream -->
+  <project remote="openstack" revision="stable/pike" name="python-ironicclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-ironicclient"/>
+
+  <!-- HPE Storage -->
+  <project remote="hpe-storage" revision="d0e6de393cecc765eba70312c466e91405fb2a69" name="python-3parclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-3parclient" />
+  <project remote="hpe-storage" revision="db9773f0f97c5af04da89fcb7dca2a6ddf8d5e4a" name="python-lefthandclient.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/git/python-lefthandclient" />
+
+</manifest>
