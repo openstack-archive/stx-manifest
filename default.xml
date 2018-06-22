@@ -14,18 +14,18 @@
 
   <project remote="openstack"  name="stx-root.git" path="cgcs-root"/>
 
-  <project remote="openstack"  name="stx-clients.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-delphi"/>
-  <project remote="openstack"  name="stx-config.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-pitta"/>
-  <project remote="openstack"  name="stx-fault.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-cleo"/>
-  <project remote="openstack"  name="stx-gplv2.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-gplv2"/>
-  <project remote="openstack"  name="stx-gplv3.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-gplv3"/>
+  <project remote="openstack"  name="stx-clients.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-clients-delphi"/>
+  <project remote="openstack"  name="stx-config.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-config"/>
+  <project remote="openstack"  name="stx-fault.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-fault"/>
+  <project remote="openstack"  name="stx-gplv2.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-gplv2"/>
+  <project remote="openstack"  name="stx-gplv3.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-gplv3"/>
   <project remote="openstack"  name="stx-gui.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-gui"/>
-  <project remote="openstack"  name="stx-ha.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-solon"/>
-  <project remote="openstack"  name="stx-integ.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-sparta"/>
-  <project remote="openstack"  name="stx-metal.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-beas"/>
-  <project remote="openstack"  name="stx-nfv.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-thales"/>
-  <project remote="openstack"  name="stx-update.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-chilon"/>
-  <project remote="openstack"  name="stx-upstream.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/mwa-perian"/> 
+  <project remote="openstack"  name="stx-ha.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-ha"/>
+  <project remote="openstack"  name="stx-integ.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-integ"/>
+  <project remote="openstack"  name="stx-metal.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-metal"/>
+  <project remote="openstack"  name="stx-nfv.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-nfv"/>
+  <project remote="openstack"  name="stx-update.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-update"/>
+  <project remote="openstack"  name="stx-upstream.git" path="cgcs-root/addons/wr-cgcs/layers/cgcs/stx-upstream"/>
 
   <project remote="stx-staging"  name="stx-centos-repo.git" path="cgcs-root/cgcs-centos-repo"/>
   <project remote="openstack"  name="stx-tis-repo.git" path="cgcs-root/cgcs-tis-repo"/>
