@@ -14,7 +14,7 @@
 
   <project remote="openstack"  name="stx-root.git" path="cgcs-root"/>
 
-  <project remote="openstack"  name="stx-clients.git" path="cgcs-root/stx/stx-clients-delphi"/>
+  <project remote="openstack"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
   <project remote="openstack"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
   <project remote="openstack"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
   <project remote="openstack"  name="stx-gplv2.git" path="cgcs-root/stx/stx-gplv2"/>
