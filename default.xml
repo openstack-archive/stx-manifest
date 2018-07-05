@@ -2,7 +2,8 @@
 <manifest>
 
   <remote name="ima" fetch="https://git.code.sf.net/p/linux-ima"/>
-  <remote name="openstack" fetch="https://github.com/openstack" />
+  <remote name="openstack" fetch="https://git.openstack.org/openstack" />
+  <remote name="starlingx" fetch="https://git.starlingx.io" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
@@ -10,26 +11,26 @@
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <default revision="master" remote="stx-staging"/>
 
-  <project remote="openstack" revision="master" name="stx-tools.git" path="stx-tools"/>
+  <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools"/>
 
-  <project remote="openstack"  name="stx-root.git" path="cgcs-root"/>
+  <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
 
-  <project remote="openstack"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
-  <project remote="openstack"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
-  <project remote="openstack"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
-  <project remote="openstack"  name="stx-gplv2.git" path="cgcs-root/stx/stx-gplv2"/>
-  <project remote="openstack"  name="stx-gplv3.git" path="cgcs-root/stx/stx-gplv3"/>
-  <project remote="openstack"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
-  <project remote="openstack"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
-  <project remote="openstack"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
-  <project remote="openstack"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
-  <project remote="openstack"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
-  <project remote="openstack"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
-  <project remote="openstack"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
+  <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
+  <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
+  <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
+  <project remote="starlingx"  name="stx-gplv2.git" path="cgcs-root/stx/stx-gplv2"/>
+  <project remote="starlingx"  name="stx-gplv3.git" path="cgcs-root/stx/stx-gplv3"/>
+  <project remote="starlingx"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
+  <project remote="starlingx"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
+  <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
+  <project remote="starlingx"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
+  <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
+  <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
+  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
 
   <project remote="stx-staging"  name="stx-centos-repo.git" path="cgcs-root/cgcs-centos-repo"/>
-  <project remote="openstack"  name="stx-tis-repo.git" path="cgcs-root/cgcs-tis-repo"/>
-  <project remote="openstack"  name="stx-utils.git" path="cgcs-root/stx"/>
+  <project remote="starlingx"  name="stx-tis-repo.git" path="cgcs-root/cgcs-tis-repo"/>
+  <project remote="starlingx"  name="stx-utils.git" path="cgcs-root/stx"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
@@ -63,11 +64,6 @@
   <project remote="stx-staging"  name="stx-qemu.git" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
-
-  <!--
-  work in progress to move these to the download mirror scripts 
-  <project remote="stx-staging"  name="cgcs-dl.git" path="cgcs-root/stx/downloads"/>
-  -->
 
   <!-- IMA Pure Upstream -->
   <project remote="ima" revision="4b56112c095cb5cc34dc35abac37ebfc6eadba65" name="ima-evm-utils.git" path="cgcs-root/stx/git/ima-evm-utils" />
