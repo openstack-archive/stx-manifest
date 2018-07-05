@@ -27,9 +27,6 @@
   <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
   <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
   <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
-
-  <project remote="stx-staging"  name="stx-centos-repo.git" path="cgcs-root/cgcs-centos-repo"/>
-  <project remote="starlingx"  name="stx-tis-repo.git" path="cgcs-root/cgcs-tis-repo"/>
   <project remote="starlingx"  name="stx-utils.git" path="cgcs-root/stx"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
