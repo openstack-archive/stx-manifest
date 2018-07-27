@@ -12,9 +12,9 @@
   <!-- for tests/experiments -->
 
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <default revision="m/2018.07"/>
+  <default revision="master" remote="stx-staging"/>
 
-  <project remote="starlingx" revision="m/2018.07" name="stx-tools.git" path="stx-tools"/>
+  <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools"/>
 
   <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
 
