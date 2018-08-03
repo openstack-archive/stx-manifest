@@ -21,8 +21,6 @@
   <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
   <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
   <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
-  <project remote="starlingx"  name="stx-gplv2.git" path="cgcs-root/stx/stx-gplv2"/>
-  <project remote="starlingx"  name="stx-gplv3.git" path="cgcs-root/stx/stx-gplv3"/>
   <project remote="starlingx"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
   <project remote="starlingx"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
   <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
