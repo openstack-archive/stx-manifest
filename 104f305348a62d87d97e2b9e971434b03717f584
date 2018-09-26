@@ -1,0 +1,9 @@
+Code-Review+2: Saul Wold <sgw@linux.intel.com>
+Code-Review+1: Brent Rowsell <brent.rowsell@windriver.com>
+Workflow+1: Dean Troyer <dtroyer@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Wed, 26 Sep 2018 23:27:37 +0000
+Reviewed-on: https://review.openstack.org/605465
+Project: openstack/stx-manifest
+Branch: refs/heads/master
