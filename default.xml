@@ -36,7 +36,7 @@
   <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
   <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
   <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
-  <project remote="stx-staging"  name="stx-libvirt.git" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging" name="stx-libvirt.git" revision="stx/v4.7.0" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-magnum-ui.git" path="cgcs-root/stx/git/magnum-ui"/>
   <project remote="stx-staging"  name="stx-murano.git" path="cgcs-root/stx/git/murano"/>
   <project remote="stx-staging"  name="stx-murano-dashboard.git" path="cgcs-root/stx/git/murano-dashboard"/>
