@@ -12,9 +12,9 @@
   <!-- for tests/experiments -->
 
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <default revision="master" remote="stx-staging"/>
+  <default remote="stx-staging" revision="r/2018.10"/>
 
-  <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools"/>
+  <project remote="starlingx"  name="stx-tools.git" path="stx-tools"/>
 
   <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
 
@@ -36,7 +36,7 @@
   <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
   <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
   <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
-  <project remote="stx-staging" name="stx-libvirt.git" revision="stx/v4.7.0" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging" name="stx-libvirt.git" revision="r/2018.10" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-magnum-ui.git" path="cgcs-root/stx/git/magnum-ui"/>
   <project remote="stx-staging"  name="stx-murano.git" path="cgcs-root/stx/git/murano"/>
   <project remote="stx-staging"  name="stx-murano-dashboard.git" path="cgcs-root/stx/git/murano-dashboard"/>
