@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="ima" fetch="https://git.code.sf.net/p/linux-ima"/>
   <remote name="openstack" fetch="https://git.openstack.org/openstack" />
   <remote name="starlingx" fetch="https://git.starlingx.io" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
@@ -61,9 +60,6 @@
   <project remote="stx-staging"  name="stx-qemu.git" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
-
-  <!-- IMA Pure Upstream -->
-  <project remote="ima" revision="refs/tags/v1.0" name="ima-evm-utils.git" path="cgcs-root/stx/git/ima-evm-utils" />
 
   <!-- Magnum Pure Upstream -->
   <project remote="openstack" revision="stable/pike" name="magnum.git" path="cgcs-root/stx/git/magnum"/>
