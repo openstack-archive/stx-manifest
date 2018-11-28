@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/projectcalico" name="calico"/>
+  <remote fetch="https://github.com/docker" name="docker"/>
+  <remote fetch="https://github.com/hpe-storage" name="hpe-storage"/>
+  <remote fetch="https://github.com/kubernetes" name="kubernetes"/>
+  <remote fetch="https://git.openstack.org/openstack" name="openstack"/>
+  <remote fetch="https://git.starlingx.io" name="starlingx"/>
+  <remote fetch="https://github.com/starlingx-staging" name="stx-staging"/>
+  
+  <default remote="stx-staging" revision="master"/>
+  
+  <project name="calico.git" path="cgcs-root/stx/git/calico" remote="calico" revision="e9f55758cbecd130c525152b0a9934deaeaa580f" upstream="refs/tags/v3.1.1"/>
+  <project name="dashboard.git" path="cgcs-root/stx/git/kube-dashboard" remote="kubernetes" revision="ec1d7de4456e6a397c7f931f0a2bfc74a6ca2e9c" upstream="refs/tags/v1.8.3"/>
+  <project name="distribution.git" path="cgcs-root/stx/git/docker-distribution" remote="docker" revision="48294d928ced5dd9b378f7fd7c6f5da3ff3f2c89" upstream="refs/tags/v2.6.2"/>
+  <project name="dns.git" path="cgcs-root/stx/git/kube-dns" remote="kubernetes" revision="d01e5e58d114fcddff98e4f6bf8b2b1484d06c3e" upstream="refs/tags/1.14.8"/>
+  <project name="kubernetes.git" path="cgcs-root/stx/git/kubernetes" remote="kubernetes" revision="9f8ebd171479bec0ada837d7ee641dec2f8c6dd1" upstream="refs/tags/v1.9.6"/>
+  <project name="magnum.git" path="cgcs-root/stx/git/magnum" remote="openstack" revision="01aec17237a90a782b14a60cd0951f3662892a24" upstream="stable/pike"/>
+  <project name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" remote="hpe-storage" revision="d0e6de393cecc765eba70312c466e91405fb2a69" upstream="refs/tags/4.2.3"/>
+  <project name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient" remote="openstack" revision="8de3bf92615ba753c9b8adf5bef0971b3cb98391" upstream="stable/pike"/>
+  <project name="python-lefthandclient.git" path="cgcs-root/stx/git/python-lefthandclient" remote="hpe-storage" revision="db9773f0f97c5af04da89fcb7dca2a6ddf8d5e4a" upstream="refs/tags/2.1.0"/>
+  <project name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer" revision="a226b47216e76ec209818b900253d3c1f1ffc3aa" upstream="master"/>
+  <project name="stx-ceph.git" path="cgcs-root/stx/git/ceph" revision="d498ed4f3dcb220a1bdb08ea2fe4dddcb52640c0" upstream="master"/>
+  <project name="stx-cinder.git" path="cgcs-root/stx/git/cinder" revision="f4c43797a3f8c0caebfd8fb67244c084d26d9741" upstream="master"/>
+  <project name="stx-clients.git" path="cgcs-root/stx/stx-clients" remote="starlingx" revision="3e9e47392a980ea153f35552c9e91cf5ecba568b" upstream="master"/>
+  <project name="stx-config.git" path="cgcs-root/stx/stx-config" remote="starlingx" revision="83c2f56bddb6b059bcecef88e68f34fecb03ce78" upstream="master"/>
+  <project name="stx-distcloud-client.git" path="cgcs-root/stx/git/distributedcloud-client" remote="starlingx" revision="91ab8de870506d9d98bc0231eb5a98e18585a797" upstream="master"/>
+  <project name="stx-distcloud.git" path="cgcs-root/stx/git/distributedcloud" remote="starlingx" revision="149979407eb2c3c1720a5b20ff66e0543ebd04e7" upstream="master"/>
+  <project name="stx-fault.git" path="cgcs-root/stx/stx-fault" remote="starlingx" revision="aebc9ee1fad4e0565f9b9dcc3666b71d2e367dbd" upstream="master"/>
+  <project name="stx-glance.git" path="cgcs-root/stx/git/glance" revision="d8ab19da86a28a6369656d3b9284e30bf267ec8d" upstream="master"/>
+  <project name="stx-gui.git" path="cgcs-root/stx/stx-gui" remote="starlingx" revision="d791403a6b8454cd3e6ce74fd8262e5d0da3b67e" upstream="master"/>
+  <project name="stx-ha.git" path="cgcs-root/stx/stx-ha" remote="starlingx" revision="e4a8db70a9448f28f0b93a666c1e315d3d7246df" upstream="master"/>
+  <project name="stx-heat.git" path="cgcs-root/stx/git/heat" revision="30e6c533c12d13ad5c2ac6f4f2a1e7cb97f40c48" upstream="master"/>
+  <project name="stx-horizon.git" path="cgcs-root/stx/git/horizon" revision="13f7720c100de0200ce382b85451bfc08f76216f" upstream="master"/>
+  <project name="stx-integ.git" path="cgcs-root/stx/stx-integ" remote="starlingx" revision="d910ac0dc6e258be33683b0ed863933f53837c07" upstream="master"/>
+  <project name="stx-ironic.git" path="cgcs-root/stx/git/ironic" revision="39171bc0f3f5369f1873722a6f7b2f5495c1fdab" upstream="master"/>
+  <project name="stx-keystone.git" path="cgcs-root/stx/git/keystone" revision="2c3dc7808ec0ec5f9d72c99b36325769765779cc" upstream="master"/>
+  <project name="stx-libvirt.git" path="cgcs-root/stx/git/libvirt" revision="b13f20719885149d8008d92fba3ff2f05f32f91a" upstream="stx/v4.7.0"/>
+  <project name="stx-magnum-ui.git" path="cgcs-root/stx/git/magnum-ui" revision="62f15cdbf9dd8c449031c6ae467bfb3227b2b891" upstream="master"/>
+  <project name="stx-metal.git" path="cgcs-root/stx/stx-metal" remote="starlingx" revision="286577940f3aeca729335d1ccf29e199e7cdd851" upstream="master"/>
+  <project name="stx-murano-dashboard.git" path="cgcs-root/stx/git/murano-dashboard" revision="2ee9dcfcc27d27417520d8ce133b12e14da2b17e" upstream="master"/>
+  <project name="stx-murano.git" path="cgcs-root/stx/git/murano" revision="36ffa06ce231372dc3583b712bdac9246d12ee18" upstream="master"/>
+  <project name="stx-networking-bgpvpn.git" path="cgcs-root/stx/git/networking-bgpvpn" revision="e6f6c015e83b844a0eeb9b06ecb25c2467d76f67" upstream="master"/>
+  <project name="stx-networking-odl.git" path="cgcs-root/stx/git/networking-odl" revision="ea8f4536aa28adbb762913b5353f7de5e6c31ce3" upstream="master"/>
+  <project name="stx-networking-sfc.git" path="cgcs-root/stx/git/networking-sfc" revision="e6c93e8e58bbb428e77d565b7746e44b2f653ec6" upstream="master"/>
+  <project name="stx-neutron-dynamic-routing.git" path="cgcs-root/stx/git/neutron-dynamic-routing" revision="ca82d951e2f7c2127ca6b19fcc0d7d34871832bc" upstream="master"/>
+  <project name="stx-neutron-lib.git" path="cgcs-root/stx/git/neutron-lib" revision="a0e07ae87ad0cfb5df8b72aed63bc8cb9a9d92b9" upstream="master"/>
+  <project name="stx-neutron.git" path="cgcs-root/stx/git/neutron" revision="d4a8ad548c4afed73269575c48526a704dd09a9c" upstream="master"/>
+  <project name="stx-nfv.git" path="cgcs-root/stx/stx-nfv" remote="starlingx" revision="8e91fba5c8b93809cb3a8bd59018f833196b837f" upstream="master"/>
+  <project name="stx-nova.git" path="cgcs-root/stx/git/nova" revision="98d628dc875c540873113431efc8128be5764ca7" upstream="master"/>
+  <project name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras" revision="cc6f677570b4f0e7ba44a91d5dff33164b8b76bc" upstream="master"/>
+  <project name="stx-openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk" revision="93d4e95536c4824e2197b2a63a4438ff5c60b653" upstream="master"/>
+  <project name="stx-python-ceilometerclient.git" path="cgcs-root/stx/git/python-ceilometerclient" revision="3d4966e6a76c63f6bf4a24d3cb3f86d7a585c1e0" upstream="master"/>
+  <project name="stx-python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient" revision="a180047739dd61ba46bed0a26f7eb376540259ec" upstream="master"/>
+  <project name="stx-python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient" revision="e69a50ccbadc0cd077d53841bf9ebe15426134c8" upstream="master"/>
+  <project name="stx-python-magnumclient.git" path="cgcs-root/stx/git/python-magnumclient" revision="52e3a449cff6f15643f28a453d09bab2b25c99dc" upstream="master"/>
+  <project name="stx-python-muranoclient.git" path="cgcs-root/stx/git/python-muranoclient" revision="c4e5a5e36ee1e1920f1639ecda981c97bd4c0a03" upstream="master"/>
+  <project name="stx-python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient" revision="c64a68a330f7f938249523492068dd94fc8d46ea" upstream="master"/>
+  <project name="stx-python-novaclient.git" path="cgcs-root/stx/git/python-novaclient" revision="103f383b94f3f47acb2a4ccff4376f64bb4ccf1c" upstream="master"/>
+  <project name="stx-qemu.git" path="cgcs-root/stx/git/qemu" revision="c284b3d419e1cc9b1f25661f4f636f19b1399970" upstream="master"/>
+  <project name="stx-root.git" path="cgcs-root" remote="starlingx" revision="a9cdcae974d0d4e702f85f141aaedd25b6f441ec" upstream="master"/>
+  <project name="stx-ryu.git" path="cgcs-root/stx/git/ryu" revision="e73cdeab37d4890138f9c48bf41cf08974ab2146" upstream="master"/>
+  <project name="stx-tools.git" path="stx-tools" remote="starlingx" revision="29e3ad848718eb6eeaef68b7efa298a16b3d3825" upstream="master"/>
+  <project name="stx-update.git" path="cgcs-root/stx/stx-update" remote="starlingx" revision="572866ebba354c383ed1d61ebcd441166b091fa5" upstream="master"/>
+  <project name="stx-upstream.git" path="cgcs-root/stx/stx-upstream" remote="starlingx" revision="c58b2b7100efe5d58a01ff8380cb551fa185e23f" upstream="master"/>
+</manifest>
