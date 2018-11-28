@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="openstack" fetch="https://git.openstack.org/openstack" />
+  <remote name="starlingx" fetch="https://git.starlingx.io" />
+  <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
+  <remote name="kubernetes" fetch="https://github.com/kubernetes" />
+  <remote name="docker" fetch="https://github.com/docker" />
+  <remote name="calico" fetch="https://github.com/projectcalico" />
+  <remote name="ceph" fetch="https://github.com/ceph"/>
+  <remote name="ceph-submodule-isa-l" fetch="https://github.com/01org"/>
+  <remote name="ceph-submodule-zstd" fetch="https://github.com/facebook"/>
+  <remote name="ceph-spdk-submodule" fetch="https://github.com/spdk"/>
+  <!-- note, you can also provide personal overrides for your own github -->
+  <!-- for tests/experiments -->
+
+  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
+  <default revision="master" remote="stx-staging"/>
+
+  <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools"/>
+
+  <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
+
+  <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
+  <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
+  <project remote="starlingx"  name="stx-distcloud.git" path="cgcs-root/stx/git/distributedcloud"/>
+  <project remote="starlingx"  name="stx-distcloud-client.git" path="cgcs-root/stx/git/distributedcloud-client"/>
+  <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
+  <project remote="starlingx"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
+  <project remote="starlingx"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
+  <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
+  <project remote="starlingx"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
+  <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
+  <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
+  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
+
+  <project remote="ceph"  name="ceph-object-corpus.git" path="cgcs-root/stx/git/ceph/ceph-object-corpus"/>
+  <project remote="ceph"  name="civetweb.git" path="cgcs-root/stx/git/ceph/src/civetweb"/>
+  <project remote="ceph"  name="jerasure.git" path="cgcs-root/stx/git/ceph/src/erasure-code/jerasure/jerasure"/>
+  <project remote="ceph"  name="gf-complete.git" path="cgcs-root/stx/git/ceph/src/erasure-code/jerasure/gf-complete"/>
+  <project remote="ceph"  name="rocksdb.git" path="cgcs-root/stx/git/ceph/src/rocksdb"/>
+  <project remote="ceph"  name="ceph-erasure-code-corpus.git" path="cgcs-root/stx/git/ceph/ceph-erasure-code-corpus"/>
+  <project remote="ceph"  name="googletest.git" path="cgcs-root/stx/git/ceph/src/rapidjson/thirdparty/gtest"/>
+  <project remote="ceph"  name="spdk.git" path="cgcs-root/stx/git/ceph/src/spdk"/>
+  <project remote="ceph"  name="xxHash.git" path="cgcs-root/stx/git/ceph/src/xxHash"/>
+  <project remote="ceph"  name="isa-l.git" path="cgcs-root/stx/git/ceph/src/isa-l"/>
+  <project remote="ceph"  name="lua.git" path="cgcs-root/stx/git/ceph/src/lua"/>
+  <project remote="ceph"  name="blkin.git" path="cgcs-root/stx/git/ceph/src/blkin"/>
+  <project remote="ceph"  name="rapidjson.git" path="cgcs-root/stx/git/ceph/src/rapidjson"/> 
+  <project remote="ceph"  name="googletest.git" path="cgcs-root/stx/git/ceph/src/googletest"/>
+
+  <project remote="ceph-submodule-isa-l"  name="isa-l_crypto.git" path="cgcs-root/stx/git/ceph/src/crypto/isa-l/isa-l_crypto"/> 
+
+  <project remote="ceph-submodule-zstd"  name="zstd.git" path="cgcs-root/stx/git/ceph/src/zstd"/>
+
+  <project remote="ceph-spdk-submodule"  name="dpdk.git" path="cgcs-root/stx/git/ceph/src/spdk/dpdk"/>
+
+  <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2" path="cgcs-root/stx/git/ceph"/>
+  <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
+  <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
+  <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
+  <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
+  <project remote="stx-staging" name="stx-libvirt.git" revision="stx/v4.7.0" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging"  name="stx-magnum-ui.git" path="cgcs-root/stx/git/magnum-ui"/>
+  <project remote="stx-staging"  name="stx-murano.git" path="cgcs-root/stx/git/murano"/>
+  <project remote="stx-staging"  name="stx-murano-dashboard.git" path="cgcs-root/stx/git/murano-dashboard"/>
+  <project remote="stx-staging"  name="stx-networking-bgpvpn.git" path="cgcs-root/stx/git/networking-bgpvpn"/>
+  <project remote="stx-staging"  name="stx-networking-odl.git" path="cgcs-root/stx/git/networking-odl"/>
+  <project remote="stx-staging"  name="stx-networking-sfc.git" path="cgcs-root/stx/git/networking-sfc"/>
+  <project remote="stx-staging"  name="stx-neutron-dynamic-routing.git" path="cgcs-root/stx/git/neutron-dynamic-routing"/>
+  <project remote="stx-staging"  name="stx-neutron-lib.git" path="cgcs-root/stx/git/neutron-lib"/>
+  <project remote="stx-staging"  name="stx-neutron.git" path="cgcs-root/stx/git/neutron"/>
+  <project remote="stx-staging"  name="stx-nova.git" path="cgcs-root/stx/git/nova"/>
+  <project remote="stx-staging"  name="stx-horizon.git" path="cgcs-root/stx/git/horizon"/>
+  <project remote="stx-staging"  name="stx-heat.git" path="cgcs-root/stx/git/heat"/>
+  <project remote="stx-staging"  name="stx-keystone.git" path="cgcs-root/stx/git/keystone"/>
+  <project remote="stx-staging"  name="stx-python-ceilometerclient.git" path="cgcs-root/stx/git/python-ceilometerclient"/>
+  <project remote="stx-staging"  name="stx-python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
+  <project remote="stx-staging"  name="stx-python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient"/>
+  <project remote="stx-staging"  name="stx-python-magnumclient.git" path="cgcs-root/stx/git/python-magnumclient"/>
+  <project remote="stx-staging"  name="stx-python-muranoclient.git" path="cgcs-root/stx/git/python-muranoclient"/>
+  <project remote="stx-staging"  name="stx-python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
+  <project remote="stx-staging"  name="stx-python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
+  <project remote="stx-staging"  name="stx-openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
+  <project remote="stx-staging"  name="stx-qemu.git" path="cgcs-root/stx/git/qemu"/>
+  <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
+  <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
+
+  <!-- Magnum Pure Upstream -->
+  <project remote="openstack" revision="stable/pike" name="magnum.git" path="cgcs-root/stx/git/magnum"/>
+
+  <!-- Python ironicclient  Pure Upstream -->
+  <project remote="openstack" revision="stable/pike" name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient"/>
+
+  <!-- HPE Storage -->
+  <project remote="hpe-storage" revision="refs/tags/4.2.3" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
+  <project remote="hpe-storage" revision="refs/tags/2.1.0" name="python-lefthandclient.git" path="cgcs-root/stx/git/python-lefthandclient" />
+
+  <!-- Docker -->
+  <project remote="docker" revision="refs/tags/v2.6.2" name="distribution.git" path="cgcs-root/stx/git/docker-distribution"/>
+
+  <!-- Kuberneties  -->
+  <project remote="kubernetes" revision="refs/tags/v1.9.6" name="kubernetes.git" path="cgcs-root/stx/git/kubernetes"/>
+  <project remote="kubernetes" revision="refs/tags/v1.8.3" name="dashboard.git" path="cgcs-root/stx/git/kube-dashboard"/>
+  <project remote="kubernetes" revision="refs/tags/1.14.8" name="dns.git" path="cgcs-root/stx/git/kube-dns"/>
+
+  <!-- Calico  -->
+  <project remote="calico" revision="refs/tags/v3.1.1" name="calico.git" path="cgcs-root/stx/git/calico"/>
+</manifest>
