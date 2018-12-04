@@ -12,6 +12,7 @@
 
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <default remote="stx-staging" revision="r/2018.10"/>
+  <default remote="starlingx" revision="r/2018.10"/>
 
   <project remote="starlingx"  name="stx-tools.git" path="stx-tools"/>
 
