@@ -57,7 +57,7 @@
   <project remote="stx-staging"  name="stx-python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
   <project remote="stx-staging"  name="stx-python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
   <project remote="stx-staging"  name="stx-openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
-  <project remote="stx-staging"  name="stx-qemu.git" path="cgcs-root/stx/git/qemu"/>
+  <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
 
