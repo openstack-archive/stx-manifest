@@ -7,6 +7,10 @@
   <remote fetch="https://git.openstack.org/openstack" name="openstack"/>
   <remote fetch="https://git.starlingx.io" name="starlingx"/>
   <remote fetch="https://github.com/starlingx-staging" name="stx-staging"/>
+  <remote fetch="https://github.com/ceph" name="ceph"/>
+  <remote fetch="https://github.com/01org" name="ceph-submodule-isa-l"/>
+  <remote fetch="https://github.com/facebook" name="ceph-submodule-zstd"/>
+  <remote fetch="https://github.com/spdk" name="ceph-submodule-spdk"/>
   
   <default remote="stx-staging" revision="master"/>
   
@@ -20,7 +24,6 @@
   <project name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient" remote="openstack" revision="8de3bf92615ba753c9b8adf5bef0971b3cb98391" upstream="stable/pike"/>
   <project name="python-lefthandclient.git" path="cgcs-root/stx/git/python-lefthandclient" remote="hpe-storage" revision="db9773f0f97c5af04da89fcb7dca2a6ddf8d5e4a" upstream="refs/tags/2.1.0"/>
   <project name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer" revision="a226b47216e76ec209818b900253d3c1f1ffc3aa" upstream="master"/>
-  <project name="stx-ceph.git" path="cgcs-root/stx/git/ceph" revision="d498ed4f3dcb220a1bdb08ea2fe4dddcb52640c0" upstream="master"/>
   <project name="stx-cinder.git" path="cgcs-root/stx/git/cinder" revision="f4c43797a3f8c0caebfd8fb67244c084d26d9741" upstream="master"/>
   <project name="stx-clients.git" path="cgcs-root/stx/stx-clients" remote="starlingx" revision="3e9e47392a980ea153f35552c9e91cf5ecba568b" upstream="master"/>
   <project name="stx-config.git" path="cgcs-root/stx/stx-config" remote="starlingx" revision="83c2f56bddb6b059bcecef88e68f34fecb03ce78" upstream="master"/>
@@ -63,4 +66,22 @@
   <project name="stx-tools.git" path="stx-tools" remote="starlingx" revision="29e3ad848718eb6eeaef68b7efa298a16b3d3825" upstream="master"/>
   <project name="stx-update.git" path="cgcs-root/stx/stx-update" remote="starlingx" revision="572866ebba354c383ed1d61ebcd441166b091fa5" upstream="master"/>
   <project name="stx-upstream.git" path="cgcs-root/stx/stx-upstream" remote="starlingx" revision="c58b2b7100efe5d58a01ff8380cb551fa185e23f" upstream="master"/>
+  <project remote="ceph"  name="ceph-object-corpus.git" path="cgcs-root/stx/git/ceph/ceph-object-corpus"/>
+  <project remote="ceph"  name="civetweb.git" path="cgcs-root/stx/git/ceph/src/civetweb"/>
+  <project remote="ceph"  name="jerasure.git" path="cgcs-root/stx/git/ceph/src/erasure-code/jerasure/jerasure"/>
+  <project remote="ceph"  name="gf-complete.git" path="cgcs-root/stx/git/ceph/src/erasure-code/jerasure/gf-complete"/>
+  <project remote="ceph"  name="rocksdb.git" path="cgcs-root/stx/git/ceph/src/rocksdb"/>
+  <project remote="ceph"  name="ceph-erasure-code-corpus.git" path="cgcs-root/stx/git/ceph/ceph-erasure-code-corpus"/>
+  <project remote="ceph"  name="googletest.git" path="cgcs-root/stx/git/ceph/src/rapidjson/thirdparty/gtest"/>
+  <project remote="ceph"  name="spdk.git" path="cgcs-root/stx/git/ceph/src/spdk"/>
+  <project remote="ceph"  name="xxHash.git" path="cgcs-root/stx/git/ceph/src/xxHash"/>
+  <project remote="ceph"  name="isa-l.git" path="cgcs-root/stx/git/ceph/src/isa-l"/>
+  <project remote="ceph"  name="lua.git" path="cgcs-root/stx/git/ceph/src/lua"/>
+  <project remote="ceph"  name="blkin.git" path="cgcs-root/stx/git/ceph/src/blkin"/>
+  <project remote="ceph"  name="rapidjson.git" path="cgcs-root/stx/git/ceph/src/rapidjson"/>
+  <project remote="ceph"  name="googletest.git" path="cgcs-root/stx/git/ceph/src/googletest"/>
+  <project remote="ceph-submodule-isa-l"  name="isa-l_crypto.git" path="cgcs-root/stx/git/ceph/src/crypto/isa-l/isa-l_crypto"/>
+  <project remote="ceph-submodule-zstd"  name="zstd.git" path="cgcs-root/stx/git/ceph/src/zstd"/>
+  <project remote="ceph-submodule-spdk"  name="dpdk.git" path="cgcs-root/stx/git/ceph/src/spdk/dpdk"/>
+  <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2" path="cgcs-root/stx/git/ceph"/>
 </manifest>
