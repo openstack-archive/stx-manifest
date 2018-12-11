@@ -11,7 +11,8 @@
   <!-- for tests/experiments -->
 
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <default revision="master" remote="stx-staging"/>
+  <default revision="f/centos76" remote="stx-staging"/>
+  <default revision="f/centos76" remote="starlingx"/>
 
   <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools"/>
 
