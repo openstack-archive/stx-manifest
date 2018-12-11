@@ -11,11 +11,11 @@
   <!-- for tests/experiments -->
 
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <default revision="master" remote="stx-staging"/>
+  <default revision="f/centos76" remote="stx-staging"/>
 
-  <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools"/>
+  <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools" revision="f/centos76"/>
 
-  <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
+  <project remote="starlingx"  name="stx-root.git" path="cgcs-root" revision="f/centos76"/>
 
   <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
   <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
@@ -24,11 +24,11 @@
   <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
   <project remote="starlingx"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
   <project remote="starlingx"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
-  <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
+  <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ" revision="f/centos76"/>
   <project remote="starlingx"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
   <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
   <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
-  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
+  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream" revision="f/centos76"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
