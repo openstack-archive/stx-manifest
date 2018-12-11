@@ -13,9 +13,9 @@
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <default revision="master" remote="stx-staging"/>
 
-  <project remote="starlingx" revision="master" name="stx-tools.git" path="stx-tools"/>
+  <project remote="starlingx"  name="stx-tools.git" revision="f/centos76" path="stx-tools"/>
 
-  <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
+  <project remote="starlingx"  name="stx-root.git" revision="f/centos76" path="cgcs-root"/>
 
   <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
   <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
@@ -24,11 +24,11 @@
   <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
   <project remote="starlingx"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
   <project remote="starlingx"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
-  <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
+  <project remote="starlingx"  name="stx-integ.git" revision="f/centos76" path="cgcs-root/stx/stx-integ"/>
   <project remote="starlingx"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
   <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
   <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
-  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
+  <project remote="starlingx"  name="stx-upstream.git" revision="f/centos76" path="cgcs-root/stx/stx-upstream"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
@@ -57,7 +57,7 @@
   <project remote="stx-staging"  name="stx-python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
   <project remote="stx-staging"  name="stx-python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
   <project remote="stx-staging"  name="stx-openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
-  <project remote="stx-staging"  name="stx-qemu.git" path="cgcs-root/stx/git/qemu"/>
+  <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
 
