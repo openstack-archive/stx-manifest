@@ -18,7 +18,7 @@
   <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
 
   <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
-  <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
+  <project remote="starlingx"  name="stx-config.git" revision="f/stein" path="cgcs-root/stx/stx-config"/>
   <project remote="starlingx"  name="stx-distcloud.git" path="cgcs-root/stx/git/distributedcloud"/>
   <project remote="starlingx"  name="stx-distcloud-client.git" path="cgcs-root/stx/git/distributedcloud-client"/>
   <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
@@ -28,7 +28,7 @@
   <project remote="starlingx"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
   <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
   <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
-  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
+  <project remote="starlingx"  name="stx-upstream.git" revision="f/stein" path="cgcs-root/stx/stx-upstream"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
