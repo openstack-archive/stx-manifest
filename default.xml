@@ -14,29 +14,29 @@
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <default revision="master" remote="stx-staging"/>
 
-  <project remote="starlingx"  name="stx-tools.git" revision="f/stein" path="stx-tools"/>
+  <project remote="starlingx"  name="stx-tools.git" path="stx-tools"/>
 
   <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
 
-  <project remote="starlingx"  name="stx-clients.git" revision="f/stein" path="cgcs-root/stx/stx-clients"/>
-  <project remote="starlingx"  name="stx-config.git" revision="f/stein" path="cgcs-root/stx/stx-config"/>
+  <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
+  <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
   <project remote="starlingx"  name="stx-distcloud.git" path="cgcs-root/stx/git/distributedcloud"/>
   <project remote="starlingx"  name="stx-distcloud-client.git" path="cgcs-root/stx/git/distributedcloud-client"/>
   <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
   <project remote="starlingx"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
   <project remote="starlingx"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
-  <project remote="starlingx"  name="stx-integ.git" revision="f/stein" path="cgcs-root/stx/stx-integ"/>
+  <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
   <project remote="starlingx"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
-  <project remote="starlingx"  name="stx-nfv.git" revision="f/stein" path="cgcs-root/stx/stx-nfv"/>
+  <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
   <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
-  <project remote="starlingx"  name="stx-upstream.git" revision="f/stein" path="cgcs-root/stx/stx-upstream"/>
+  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
   <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
   <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
   <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
-  <project remote="stx-staging" name="stx-libvirt.git" revision="stx/v4.7.0" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-magnum-ui.git" path="cgcs-root/stx/git/magnum-ui"/>
   <project remote="stx-staging"  name="stx-murano.git" path="cgcs-root/stx/git/murano"/>
   <project remote="stx-staging"  name="stx-murano-dashboard.git" path="cgcs-root/stx/git/murano-dashboard"/>
