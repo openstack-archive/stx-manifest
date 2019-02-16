@@ -7,6 +7,11 @@
   <remote name="kubernetes" fetch="https://github.com/kubernetes" />
   <remote name="docker" fetch="https://github.com/docker" />
   <remote name="calico" fetch="https://github.com/projectcalico" />
+  <remote name="ceph" fetch="https://github.com/ceph"/>
+  <remote name="ceph-submodule-isa-l" fetch="https://github.com/01org"/>
+  <remote name="ceph-submodule-zstd" fetch="https://github.com/facebook"/>
+  <remote name="ceph-submodule-spdk" fetch="https://github.com/spdk"/>
+  <remote name="ceph-submodule-gtest" fetch="https://github.com/google"/>
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -32,6 +37,23 @@
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2" path="cgcs-root/stx/git/ceph"/>
+  <project remote="ceph"  revision="e32bf8ca3dc6151ebe7f205ba187815bc18e1cef" name="ceph-object-corpus.git" path="cgcs-root/stx/git/ceph/ceph-object-corpus"/>
+  <project remote="ceph"  revision="ceph-mimic" name="civetweb.git" path="cgcs-root/stx/git/ceph/src/civetweb"/>
+  <project remote="ceph"  revision="v2-ceph" name="jerasure.git" path="cgcs-root/stx/git/ceph/src/erasure-code/jerasure/jerasure"/>
+  <project remote="ceph"  revision="v3-ceph" name="gf-complete.git" path="cgcs-root/stx/git/ceph/src/erasure-code/jerasure/gf-complete"/>
+  <project remote="ceph"  revision="ceph-mimic" name="rocksdb.git" path="cgcs-root/stx/git/ceph/src/rocksdb"/>
+  <project remote="ceph"  revision="2d7d78b9cc52e8a9529d8cc2d2954c7d375d5dd7" name="ceph-erasure-code-corpus.git" path="cgcs-root/stx/git/ceph/ceph-erasure-code-corpus"/>
+  <project remote="ceph"  revision="wip-25032-mimic" name="spdk.git" path="cgcs-root/stx/git/ceph/src/spdk"/>
+  <project remote="ceph"  revision="1f40c6511fa8dd9d2e337ca8c9bc18b3e87663c9" name="xxHash.git" path="cgcs-root/stx/git/ceph/src/xxHash"/>
+  <project remote="ceph"  revision="7e1a337433a340bc0974ed0f04301bdaca374af6" name="isa-l.git" path="cgcs-root/stx/git/ceph/src/isa-l"/>
+  <project remote="ceph"  revision="lua-5.3-ceph" name="lua.git" path="cgcs-root/stx/git/ceph/src/lua"/>
+  <project remote="ceph"  revision="63711bf3bf38fb52adc157898606d8cecf2a0f9d" name="blkin.git" path="cgcs-root/stx/git/ceph/src/blkin"/>
+  <project remote="ceph"  revision="0033268c115cbfa224937a76685bfb1e55fdb506" name="rapidjson.git" path="cgcs-root/stx/git/ceph/src/rapidjson"/>
+  <project remote="ceph"  revision="ceph-release-1.7.x" name="googletest.git" path="cgcs-root/stx/git/ceph/src/googletest"/>
+  <project remote="ceph-submodule-isa-l"  revision="090572c5d8c307d58c9118d96a68f4eb93ab02fe" name="isa-l_crypto.git" path="cgcs-root/stx/git/ceph/src/crypto/isa-l/isa-l_crypto"/>
+  <project remote="ceph-submodule-zstd"  revision="470344d33e1d52a2ada75d278466da8d4ee2faf6" name="zstd.git" path="cgcs-root/stx/git/ceph/src/zstd"/>
+  <project remote="ceph-submodule-spdk"  revision="11a1f847d2819c0ed2072f3cbdca5c7257e9bd63" name="dpdk.git" path="cgcs-root/stx/git/ceph/src/spdk/dpdk"/>
+  <project remote="ceph-submodule-gtest"  revision="ec44c6c1675c25b9827aacd08c02433cccde7780" name="googletest.git" path="cgcs-root/stx/git/ceph/src/rapidjson/thirdparty/gtest"/>
   <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
   <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
   <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
