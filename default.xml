@@ -7,6 +7,7 @@
   <remote name="kubernetes" fetch="https://github.com/kubernetes" />
   <remote name="docker" fetch="https://github.com/docker" />
   <remote name="calico" fetch="https://github.com/projectcalico" />
+  <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -35,7 +36,7 @@
   <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
   <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
   <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
-  <project remote="stx-staging" name="stx-libvirt.git" revision="stx/v4.7.0" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-magnum-ui.git" path="cgcs-root/stx/git/magnum-ui"/>
   <project remote="stx-staging"  name="stx-murano.git" path="cgcs-root/stx/git/murano"/>
   <project remote="stx-staging"  name="stx-murano-dashboard.git" path="cgcs-root/stx/git/murano-dashboard"/>
@@ -49,23 +50,29 @@
   <project remote="stx-staging"  name="stx-horizon.git" path="cgcs-root/stx/git/horizon"/>
   <project remote="stx-staging"  name="stx-heat.git" path="cgcs-root/stx/git/heat"/>
   <project remote="stx-staging"  name="stx-keystone.git" path="cgcs-root/stx/git/keystone"/>
-  <project remote="stx-staging"  name="stx-python-ceilometerclient.git" path="cgcs-root/stx/git/python-ceilometerclient"/>
-  <project remote="stx-staging"  name="stx-python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
-  <project remote="stx-staging"  name="stx-python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient"/>
-  <project remote="stx-staging"  name="stx-python-magnumclient.git" path="cgcs-root/stx/git/python-magnumclient"/>
-  <project remote="stx-staging"  name="stx-python-muranoclient.git" path="cgcs-root/stx/git/python-muranoclient"/>
-  <project remote="stx-staging"  name="stx-python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
-  <project remote="stx-staging"  name="stx-python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
-  <project remote="stx-staging"  name="stx-openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
 
+  <!-- Stein Clients -->
+  <project remote="openstack"  revision="master" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
+  <project remote="openstack"  revision="master" name="python-barbicanclient.git" path="cgcs-root/stx/git/python-barbicanclient"/>
+  <project remote="openstack"  revision="master" name="python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
+  <project remote="openstack"  revision="master" name="python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient"/>
+  <project remote="openstack"  revision="master" name="python-heatclient.git" path="cgcs-root/stx/git/python-heatclient"/>
+  <project remote="openstack"  revision="master" name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient"/>
+  <project remote="openstack"  revision="master" name="python-keystoneclient.git" path="cgcs-root/stx/git/python-keystoneclient"/>
+  <project remote="openstack"  revision="master" name="python-magnumclient.git" path="cgcs-root/stx/git/python-magnumclient"/>
+  <project remote="openstack"  revision="master" name="python-muranoclient.git" path="cgcs-root/stx/git/python-muranoclient"/>
+  <project remote="openstack"  revision="master" name="python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
+  <project remote="openstack"  revision="master" name="python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
+  <project remote="openstack"  revision="master" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
+  <project remote="openstack"  revision="master" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
+  <project remote="openstack"  revision="master" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
+  <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
+
   <!-- Magnum Pure Upstream -->
   <project remote="openstack" revision="stable/pike" name="magnum.git" path="cgcs-root/stx/git/magnum"/>
-
-  <!-- Python ironicclient  Pure Upstream -->
-  <project remote="openstack" revision="stable/pike" name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient"/>
 
   <!-- HPE Storage -->
   <project remote="hpe-storage" revision="refs/tags/4.2.3" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
