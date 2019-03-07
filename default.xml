@@ -88,4 +88,7 @@
 
   <!-- Calico  -->
   <project remote="calico" revision="refs/tags/v3.1.1" name="calico.git" path="cgcs-root/stx/git/calico"/>
+
+  <!-- Keystoneauth  -->
+  <project remote="openstack" revision="refs/tags/3.13.1" name="keystoneauth.git" path="cgcs-root/stx/git/python-keystoneauth"/>
 </manifest>
