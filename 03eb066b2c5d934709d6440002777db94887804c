@@ -1,0 +1,13 @@
+Code-Review+2: Don Penney <don.penney@windriver.com>
+Code-Review+1: Brent Rowsell <brent.rowsell@windriver.com>
+Code-Review+1: Dean Troyer <dtroyer@gmail.com>
+Code-Review+1: Bob Church <robert.church@windriver.com>
+Code-Review+2: Saul Wold <sgw@linux.intel.com>
+Code-Review+1: Erich Cordoba <erich.cordoba.malibran@intel.com>
+Workflow+1: Scott Little <scott.little@windriver.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 08 Mar 2019 17:04:29 +0000
+Reviewed-on: https://review.openstack.org/642040
+Project: openstack/stx-manifest
+Branch: refs/heads/master
