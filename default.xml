@@ -47,7 +47,6 @@
   <project remote="stx-staging"  name="stx-neutron-lib.git" path="cgcs-root/stx/git/neutron-lib"/>
   <project remote="stx-staging"  name="stx-neutron.git" path="cgcs-root/stx/git/neutron"/>
   <project remote="stx-staging"  name="stx-nova.git" path="cgcs-root/stx/git/nova"/>
-  <project remote="stx-staging"  name="stx-horizon.git" path="cgcs-root/stx/git/horizon"/>
   <project remote="stx-staging"  name="stx-heat.git" path="cgcs-root/stx/git/heat"/>
   <project remote="stx-staging"  name="stx-keystone.git" path="cgcs-root/stx/git/keystone"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0" path="cgcs-root/stx/git/qemu"/>
@@ -71,8 +70,9 @@
   <project remote="openstack"  revision="master" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
-  <!-- Magnum Pure Upstream -->
+  <!-- Pure Upstream -->
   <project remote="openstack" revision="stable/pike" name="magnum.git" path="cgcs-root/stx/git/magnum"/>
+  <project remote="openstack" revision="master"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
 
   <!-- HPE Storage -->
   <project remote="hpe-storage" revision="refs/tags/4.2.3" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
