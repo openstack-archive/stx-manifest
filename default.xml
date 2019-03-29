@@ -32,7 +32,7 @@
   <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
-  <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
+  <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph" revision="stx/v13.2.2"/>
   <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
   <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
   <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
