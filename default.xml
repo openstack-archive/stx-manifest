@@ -48,7 +48,6 @@
   <project remote="stx-staging"  name="stx-neutron.git" path="cgcs-root/stx/git/neutron"/>
   <project remote="stx-staging"  name="stx-nova.git" path="cgcs-root/stx/git/nova"/>
   <project remote="stx-staging"  name="stx-heat.git" path="cgcs-root/stx/git/heat"/>
-  <project remote="stx-staging"  name="stx-keystone.git" path="cgcs-root/stx/git/keystone"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
